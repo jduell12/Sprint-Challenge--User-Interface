@@ -227,6 +227,10 @@ footer nav a {
         font-size: 2rem;
     }
 
+    div{
+        display: inline;
+    }
+
     .container{
         width: 100%;
     }
@@ -265,5 +269,19 @@ footer nav a {
     .top-content .text-container{
         width: 100%;
         padding: 2%;
+    }
+
+    /*middle content section styles*/
+    .middle-content h2{
+        font-size: 2.5rem;
+    }
+
+    .middle-content .boxes {
+        
+    }
+
+    .middle-content .boxes .box{
+        width: 30%;
+        height: 200px;
     }
 }
