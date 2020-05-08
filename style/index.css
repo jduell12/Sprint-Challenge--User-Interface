@@ -319,4 +319,21 @@ footer nav a {
     #home nav a{
         margin: 2%;
     }
+
+    .top-content .text-container{
+        padding: 5%;
+    }
+
+    /*middle content section styles*/
+    .middle-content{
+        border-bottom: none;
+    }
+
+    .middle-content h2{
+        text-align: center;
+    }
+
+    .middle-content .boxes .box{
+        width: 50%;
+    }
 }
