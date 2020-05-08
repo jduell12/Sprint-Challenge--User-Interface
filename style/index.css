@@ -51,6 +51,7 @@ table {
     box-sizing: border-box;
 }
 
+/*general styles*/
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -69,6 +70,30 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/*header section styles*/
+#home{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#home nav{
+    width: 70%;
+    margin: 5%;
+    display: inline;
+}
+
+#home nav a{
+    text-decoration: none;
+    margin: 5%;
+    color: black;
+}
+
+.bottom-header-img{
+    margin-bottom: 5%;
 }
 
 .top-content {
