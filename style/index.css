@@ -221,11 +221,14 @@ footer nav a {
     /*general styles*/
     html{
         font-size: 62.5%;
-        overflow: hidden;
     }
 
     body{
         font-size: 2rem;
+    }
+
+    .container{
+        width: 100%;
     }
 
     /*header styles*/
@@ -235,19 +238,32 @@ footer nav a {
     }   
 
     #home nav{
-       margin: 0;
-       padding-right: 5%;
+       margin: 1%;
+       display: flex;
     }
 
     #home nav a{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     .bottom-header-img{
         padding: 0;
         margin: 0 0 2% 0;
+        width: 100%;
     }
 
     /*top-content styles*/
-    
+    .top-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-content h2{
+        font-size: 3rem;
+    }
+
+    .top-content .text-container{
+        width: 100%;
+        padding: 2%;
+    }
 }
