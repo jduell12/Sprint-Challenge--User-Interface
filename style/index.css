@@ -235,6 +235,10 @@ footer nav a {
         width: 100%;
     }
 
+    h2{
+        font-size: 2.5rem;
+    }
+
     /*header styles*/
 
     .top-header-img{
@@ -262,26 +266,26 @@ footer nav a {
         align-items: center;
     }
 
-    .top-content h2{
-        font-size: 3rem;
-    }
-
     .top-content .text-container{
         width: 100%;
         padding: 2%;
     }
 
     /*middle content section styles*/
-    .middle-content h2{
-        font-size: 2.5rem;
-    }
-
-    .middle-content .boxes {
-        
-    }
 
     .middle-content .boxes .box{
         width: 30%;
         height: 200px;
+    }
+
+    /*bottom content section styles*/
+    .bottom-content{
+        flex-wrap: wrap;
+    }
+
+    .bottom-content .text-container{
+        width: 40%;
+        margin: 1%;
+        padding: 1%;
     }
 }
