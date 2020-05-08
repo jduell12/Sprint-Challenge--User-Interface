@@ -246,12 +246,12 @@ footer nav a {
     /*header styles*/
 
     .top-header-img{
-        margin: 1%;
+        margin: 1% 2%;
     }   
 
     #home nav{
-       margin: 1%;
        display: flex;
+       margin: 0;
     }
 
     .bottom-header-img{
@@ -278,6 +278,14 @@ footer nav a {
         height: 200px;
     }
 
+    .middle-content h2{
+        text-transform: lowercase;
+    }
+
+    .middle-content h2:first-letter{
+        text-transform: uppercase;
+    }
+
     /*bottom content section styles*/
     .bottom-content{
         flex-wrap: wrap;
@@ -293,7 +301,7 @@ footer nav a {
     footer nav{
         width: 100%;
         justify-content: space-evenly;
-        padding: 20px 6%;
+        padding: 20px 20%;
     }
 }
 
@@ -310,6 +318,7 @@ footer nav a {
     #home nav{
         flex-direction: column;
         align-items: center;
+        margin-bottom: 4%;
     }
 
     .top-header-img{
@@ -333,8 +342,15 @@ footer nav a {
         text-align: center;
     }
 
+    
+
+    .middle-content .boxes{
+        margin: 0 15%;
+    }
+
     .middle-content .boxes .box{
         width: 50%;
+        height: 150px;
     }
 
     /*bottom content section styles*/
